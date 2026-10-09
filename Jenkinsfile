@@ -8,7 +8,7 @@ pipeline{
        }
      stage('build phase'){
         steps{
-          build 'maven'
+          build 'maven test2'
         }
       }
      stage('testing phase'){
